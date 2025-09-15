@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.DS_Store
+coverage/
+.tmp/
+.nyc_output/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+# Editor directories
+.vscode/
+.idea/
