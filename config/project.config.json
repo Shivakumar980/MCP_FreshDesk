@@ -1,0 +1,20 @@
+{
+  "server": {
+    "name": "freshdesk-mcp-skeleton",
+    "description": "AI-assisted FreshDesk triage server built with the Model Context Protocol",
+    "port": 8071
+  },
+  "aiProviders": {
+    "defaultModel": "gpt-4.1-mini",
+    "fallbackModel": "gpt-4o-mini",
+    "temperature": 0.2
+  },
+  "dataPaths": {
+    "tickets": "data/sampleTickets.json",
+    "knowledgeBase": "data/knowledgeBase/articles.json"
+  },
+  "governance": {
+    "allowTicketUpdates": false,
+    "auditLogPath": "data/audit-log.json"
+  }
+}

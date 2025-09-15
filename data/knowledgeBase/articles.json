@@ -1,0 +1,26 @@
+[
+  {
+    "id": "KB-001",
+    "title": "Resolve blank FreshDesk widget screens in Safari",
+    "tags": ["widget", "safari", "troubleshooting"],
+    "excerpt": "Steps to resolve CSP issues causing the messenger widget to render blank in Safari.",
+    "url": "https://example.com/docs/freshdesk-widget-safari",
+    "body": "Confirm the Content-Security-Policy allows https://widget.freshdesk.com. Clear the service worker cache and upgrade the widget SDK to at least v3.2.1."
+  },
+  {
+    "id": "KB-002",
+    "title": "Rerouting VIP automation flows",
+    "tags": ["automation", "vip", "routing"],
+    "excerpt": "Update automation rules to ensure enterprise queue assignment for VIP contacts.",
+    "url": "https://example.com/docs/vip-routing",
+    "body": "Add a condition matching the billing form source, then set the 'Assign to group' action to the enterprise queue. Validate with a sandbox ticket before publishing."
+  },
+  {
+    "id": "KB-003",
+    "title": "Export quarterly analytics from FreshDesk",
+    "tags": ["reporting", "analytics", "exports"],
+    "excerpt": "Export ticket analytics for financial reporting.",
+    "url": "https://example.com/docs/analytics-export",
+    "body": "Navigate to Analytics > Ticket Volume, select the desired quarter, and click 'Schedule Export'. Choose CSV and include CSAT metrics to align with finance requirements."
+  }
+]
